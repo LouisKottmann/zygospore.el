@@ -22,9 +22,9 @@ This is my first attempt at making a tidy package for Emacs while providing a *h
 
 From [wikipedia](https://en.wikipedia.org/wiki/Zygospore):
 
->> A zygospore remains dormant while it waits for environmental cues, such as light, moisture, heat,
->> or chemicals secreted by plants. When the environment is favorable, the zygospore germinates,
->> meiosis occurs, and haploid vegetative cells are released.
+> A zygospore remains dormant while it waits for environmental cues, such as light, moisture, heat,
+> or chemicals secreted by plants. When the environment is favorable, the zygospore germinates,
+> meiosis occurs, and haploid vegetative cells are released.
 
 Ah, sweet poetry of nature.
 
