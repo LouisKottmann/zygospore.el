@@ -7,6 +7,6 @@ zygospore-mode
 
 # Example
 
-*you can click then select "raw" for fullscreen*
+*Click the gif then select "raw" for fullscreen*
 
 ![demo.gif](demo.gif)
