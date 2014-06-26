@@ -23,7 +23,7 @@
 
 ;;; Code:
 
-(defvar zygospore/windows-time-machine-register-name
+(defvar zygospore/spore-formation-register-name
   "zygospore/windows-time-machine"
   "Name of the register that zygospore uses to reverse `zygospore/delete-other-windows'.")
 
@@ -39,12 +39,12 @@
   "Save current window/buffer configuration and full-frame the current buffer."
   (setq zygospore/last-full-frame-window (selected-window))
   (setq zygospore/last-full-frame-buffer (current-buffer))
-  (window-configuration-to-register zygospore/windows-time-machine-register-name)
+  (window-configuration-to-register zygospore/spore-formation-register-name)
   (delete-other-windows))
 
 (defun zygospore/restore-other-windows ()
   "Restore the window configuration to prior to full-framing."
-  (jump-to-register zygospore/windows-time-machine-register-name))
+  (jump-to-register zygospore/spore-formation-register-name))
 
 ;;;###autoload
 (defun zygospore/toggle-delete-other-windows ()
