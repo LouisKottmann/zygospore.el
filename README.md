@@ -10,6 +10,14 @@
 
 ![demo.gif](demo.gif)
 
+## Installation
+
+Install from MELPA: `M-x package-install RET zygospore-mode RET`
+
+Then activate it: `M-x global-zygospore-mode RET`
+
+To have it always activated, add this to your init.el: `(global-zygospore-mode 1)`
+
 ## Not so useful information
 
 I was inspired by the same functionality that is present out-of-the-box in tmux, and which I use a lot to momentarily "zoom in" on a buffer. Check out [my tmux config](https://github.com/LouisKottmann/baboon-bash/blob/master/.tmux.conf#L20) for the same thing with the same binding in tmux.
