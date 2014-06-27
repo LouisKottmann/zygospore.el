@@ -17,6 +17,7 @@ Install from MELPA: `M-x package-install RET zygospore RET`
 Test it out with `M-x zygospore-toggle-delete-other-windows RET` (twice, on a frame with multiple windows)
 
 To make it permanent, add this line to your `init.el`:
+
 `(global-set-key (kbd "C-x 1") 'zygospore-toggle-delete-other-windows)`
 
 ## Not so useful information
