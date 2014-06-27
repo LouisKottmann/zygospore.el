@@ -25,7 +25,7 @@ I was inspired by the same functionality that is present out-of-the-box in tmux,
 
 Of course it can be replicated by `C-x 1` `C-c <left arrow>` (`winner-undo`) but why 2 bindings when you could toggle?!
 
-)This is my first attempt at making a tidy package for Emacs while providing a *hopefully* useful command, sorry if you came here looking for a next-gen dynamic language auto-completion ;)
+This is my first attempt at making a tidy package for Emacs while providing a *hopefully* useful command, sorry if you came here looking for a next-gen dynamic language auto-completion ;)
 
 ## Why zygospore?
 
