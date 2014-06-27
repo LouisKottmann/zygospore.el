@@ -14,9 +14,10 @@
 
 Install from MELPA: `M-x package-install RET zygospore-mode RET`
 
-Then activate it: `M-x global-zygospore-mode RET`
+Test it out with `M-x zygospore-toggle-delete-other-windows RET`
 
-To have it always activated, add this to your init.el: `(global-zygospore-mode 1)`
+To make it permanent, add this line to your `init.el`:
+`(global-set-key (kbd "C-x 1") 'zygospore-toggle-delete-other-windows)`
 
 ## Not so useful information
 
